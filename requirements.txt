@@ -1,0 +1,9 @@
+mcp[cli]
+
+# This server calls into the Librarian (retrieval + answer) and Scout
+# (screening), so those dependencies are required too. In development they can
+# come from the Librarian's own virtualenv; for a standalone install, install
+# the Librarian's requirements as well.
+chromadb
+sentence-transformers
+openai
